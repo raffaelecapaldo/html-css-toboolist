@@ -1,4 +1,49 @@
+/* FONT ARIAL NOVA */
+@import url(//db.onlinewebfonts.com/c/9caf965400ad4def18b1100102b5b81e?family=Arial+Nova);
+@font-face {font-family: "Arial Nova"; src: url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.eot"); src: url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.woff") format("woff"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.svg#Arial Nova") format("svg"); }
+
+/* GENERAL */
 * {
     box-sizing: border-box;
     margin:0;
+    font-family: Arial Nova;
+    
+}
+
+body
+{
+    background-color: #f6f8f9;
+}
+
+/* NAV AREA */
+
+nav
+{
+    background-color:white;
+}
+
+.logo {
+    margin-top:1px;
+    padding-bottom:10px;
+    padding-top:10px;
+    font-size:45px;
+    font-weight: bolder;
+    margin-left:20px;
+}
+
+img {
+    vertical-align: top;
+}
+
+/* CONTENT AREA */
+main {
+    width: 65%;
+    height:3000px;
+    margin: 50px auto;
+}
+
+.content {
+    height: 70%;
+    margin:20px auto;
+    background-color:grey;
 }
