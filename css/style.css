@@ -53,6 +53,38 @@ margin-bottom:2px;
 border-radius: 5px 5px 0 0;
 }
 
+/* BUTTON OF THE TASKBAR */
+#buttontask{
+display:inline-block;
+margin-left:50px;
+margin-top:15px;
+background-color:#47adf1;
+border:10px solid #47adf1;
+border-radius:5px;
+color:white;
+font-size:10px;
+font-weight: bolder;
+text-align:center;
+width: 75px;
+}
+
+#buttonsection
+{
+    display:inline-block;
+    margin-left:5px;
+    background-color:white;
+    border:2px solid #d6d9dd;
+    border-radius:5px;
+    color:#d6d9dd;
+    font-size:10px;
+    font-weight: bolder;
+    text-align:center;
+    width: 90px;
+    height:30px;
+    padding-top:7px;
+
+}
+
 /* TASK LIST SECTION */
 .tasklist {
     border-radius: 0 0 5px 5px;
@@ -104,7 +136,7 @@ border-radius: 5px 5px 0 0;
     line-height:17px;
 
 }
-
+/* BADGE SECTION */
 .badge{
     width: 58px;
     height: 24px;
