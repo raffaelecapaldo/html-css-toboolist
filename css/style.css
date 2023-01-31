@@ -1,6 +1,7 @@
-/* FONT ARIAL NOVA */
+/* FONT ARIAL NOVA REGULAR + BOLD */
 @import url(//db.onlinewebfonts.com/c/9caf965400ad4def18b1100102b5b81e?family=Arial+Nova);
 @font-face {font-family: "Arial Nova"; src: url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.eot"); src: url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.woff") format("woff"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.svg#Arial Nova") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/ce953f6e2e71e5dd538b50ff7a841c7e?family=Arial+Nova);
 
 /* GENERAL */
 * {
@@ -15,12 +16,15 @@ body
     background-color: #f6f8f9;
 }
 
-/* NAV AREA */
-
-nav
+.bg-white
 {
     background-color:white;
 }
+
+
+/* NAV AREA */
+
+
 
 .logo {
     margin-top:1px;
@@ -45,5 +49,17 @@ main {
 .content {
     height: 70%;
     margin:20px auto;
-    background-color:grey;
 }
+
+/* TASK AREA SECTION */
+.taskbar {
+height:50px;
+margin-bottom:2px;
+border-radius: 5px 5px 0 0;
+}
+
+.tasklist {
+    border-radius: 0 0 5px 5px;
+    height:500px;
+}
+
