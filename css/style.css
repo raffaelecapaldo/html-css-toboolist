@@ -1,10 +1,10 @@
 /* FONT ARIAL NOVA REGULAR + BOLD */
-@import url(//db.onlinewebfonts.com/c/9caf965400ad4def18b1100102b5b81e?family=Arial+Nova);
+@import url(http://db.onlinewebfonts.com/c/9caf965400ad4def18b1100102b5b81e?family=Arial+Nova);
 
 @font-face {
     font-family: "Arial Nova";
-    src: url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.eot");
-    src: url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.woff") format("woff"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.svg#Arial Nova") format("svg");
+    src: url("http://db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.eot");
+    src: url("http://db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.woff") format("woff"), url("http://db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.svg#Arial Nova") format("svg");
 }
 
 @import url(//db.onlinewebfonts.com/c/ce953f6e2e71e5dd538b50ff7a841c7e?family=Arial+Nova);
