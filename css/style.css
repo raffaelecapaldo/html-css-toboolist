@@ -53,11 +53,41 @@ margin-bottom:2px;
 border-radius: 5px 5px 0 0;
 }
 
+/* TASK LIST SECTION */
 .tasklist {
     border-radius: 0 0 5px 5px;
-    height:500px;
 }
 
+.tasklist {
+    padding-top:40px;
+    padding-left:40px;
+}
+
+/* TASKLIST TITLES */
+.tasklist div h3{
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+/* TASKLIST CONTENT */
+.tasklist div h3 span
+{
+    font-size:13px;
+}
+
+.tasklist ul {
+    display:block;
+    list-style-type:none;
+    padding-left: 0;
+    text-indent: 0;
+    font-size:18px;
+
+}
+
+.tasklist ul li {
+    padding-bottom:20px;
+}
 
 /* BG COLOR AREA */
 
