@@ -61,6 +61,7 @@ border-radius: 5px 5px 0 0;
 .tasklist {
     padding-top:40px;
     padding-left:40px;
+    padding-bottom:80px;
 }
 
 /* TASKLIST TITLES */
@@ -104,38 +105,25 @@ border-radius: 5px 5px 0 0;
 
 }
 
-
-/* BG COLOR AREA */
-
-.bg-lightblue {
-    background-color:#47adf1
+.badge{
+    width: 58px;
+    height: 24px;
+    border-radius:12px;
+    border: 2px solid;
+    font-size: 14px;
+    display:inline-block;
+    text-align:center;
 }
 
-.bg-white{
-    background-color:white;
-}
-
-.bg-lavanda {
-    background-color:#9c72e4
-}
-
-.bg-green {
-    background-color:#64c0a9
-}
-
-.bg-paleviolet {
-    background-color:#d863a1
-}
-
-/* COLOR SECTION */
-.white{
-    color:white;
-}
-
-.grey
+.badgetext
 {
-    color:#c3cacf;
+    color: white;
+    font-size:10px;
+    font-weight:600
 }
+
+
+/* COLOR AREA */
 
 .green{
     color:#7ecfbe;
@@ -143,4 +131,52 @@ border-radius: 5px 5px 0 0;
 
 .red {
     color:#e94438;
+}
+
+
+/* BG COLOR AREA */
+
+
+
+.bg-white{
+    background-color:white;
+}
+
+
+
+/* COLOR BADGE SECTION */
+
+.bg-lightblue {
+    border-color:#47adf1;
+    background-color:#47adf1;
+}
+
+
+.bg-paleviolet {
+    border-color:#d863a1;
+    background-color:#d863a1;
+}
+
+.bg-lavanda {
+    border-color:#9c72e4;
+    background-color:#9c72e4;
+}
+
+.bg-orange
+{
+    border-color:#e69630;
+    background-color:#e69630;
+
+}
+
+.bg-darkgreen
+{
+    border-color:#64c0a9;
+    background-color:#64c0a9;
+}
+
+.bg-lightgreen
+{
+    border-color:#b1ca28;
+    background-color:#b1ca28;
 }
