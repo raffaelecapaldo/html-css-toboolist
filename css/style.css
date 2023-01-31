@@ -86,8 +86,24 @@ border-radius: 5px 5px 0 0;
 }
 
 .tasklist ul li {
-    padding-bottom:20px;
+    padding-bottom:15px;
 }
+
+.circle
+{
+    height:20px;
+    width: 20px;
+    border-radius:50%;
+    display:inline-block;
+    border:2px solid;
+    margin-top:15px;
+    font-size:14px;
+    text-align:center;
+    font-weight:bold;
+    line-height:17px;
+
+}
+
 
 /* BG COLOR AREA */
 
@@ -118,5 +134,13 @@ border-radius: 5px 5px 0 0;
 
 .grey
 {
-    color:#c3cacf
+    color:#c3cacf;
+}
+
+.green{
+    color:#7ecfbe;
+}
+
+.red {
+    color:#e94438;
 }
