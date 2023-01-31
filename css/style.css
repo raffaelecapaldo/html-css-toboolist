@@ -1,18 +1,23 @@
 /* FONT ARIAL NOVA REGULAR + BOLD */
 @import url(//db.onlinewebfonts.com/c/9caf965400ad4def18b1100102b5b81e?family=Arial+Nova);
-@font-face {font-family: "Arial Nova"; src: url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.eot"); src: url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.woff") format("woff"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.svg#Arial Nova") format("svg"); }
+
+@font-face {
+    font-family: "Arial Nova";
+    src: url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.eot");
+    src: url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.woff") format("woff"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9caf965400ad4def18b1100102b5b81e.svg#Arial Nova") format("svg");
+}
+
 @import url(//db.onlinewebfonts.com/c/ce953f6e2e71e5dd538b50ff7a841c7e?family=Arial+Nova);
 
 /* GENERAL */
 * {
     box-sizing: border-box;
-    margin:0;
+    margin: 0;
     font-family: Arial Nova;
-    
+
 }
 
-body
-{
+body {
     background-color: #f6f8f9;
 }
 
@@ -22,12 +27,12 @@ body
 
 
 .logo {
-    margin-top:1px;
-    padding-bottom:10px;
-    padding-top:10px;
-    font-size:45px;
+    margin-top: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 45px;
     font-weight: bolder;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
 img {
@@ -37,132 +42,127 @@ img {
 /* CONTENT AREA */
 main {
     width: 65%;
-    height:3000px;
+    height: 3000px;
     margin: 50px auto;
 }
 
 .content {
     height: 70%;
-    margin:20px auto;
+    margin: 20px auto;
 }
 
 /* TASK AREA SECTION */
 .taskbar {
-height:50px;
-margin-bottom:2px;
-border-radius: 5px 5px 0 0;
+    height: 50px;
+    margin-bottom: 2px;
+    border-radius: 5px 5px 0 0;
 }
 
 /* BUTTON OF THE TASKBAR */
-#buttontask{
-display:inline-block;
-margin-left:50px;
-margin-top:15px;
-background-color:#47adf1;
-border:10px solid #47adf1;
-border-radius:5px;
-color:white;
-font-size:10px;
-font-weight: bolder;
-text-align:center;
-width: 75px;
+#buttontask {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 15px;
+    background-color: #47adf1;
+    border: 10px solid #47adf1;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    font-weight: bolder;
+    text-align: center;
+    width: 90px;
+    height: 30px
 }
 
-#buttonsection
-{
-    display:inline-block;
-    margin-left:5px;
-    background-color:white;
-    border:2px solid #d6d9dd;
-    border-radius:5px;
-    color:#d6d9dd;
-    font-size:10px;
+#buttonsection {
+    display: inline-block;
+    margin-left: 5px;
+    background-color: white;
+    border: 2px solid #d6d9dd;
+    border-radius: 5px;
+    color: #d6d9dd;
+    font-size: 10px;
     font-weight: bolder;
-    text-align:center;
+    text-align: center;
     width: 90px;
-    height:30px;
-    padding-top:7px;
+    height: 30px;
+    padding-top: 7px;
 
 }
 
 /* TASK LIST SECTION */
 .tasklist {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 80px;
     border-radius: 0 0 5px 5px;
 }
 
-.tasklist {
-    padding-top:40px;
-    padding-left:40px;
-    padding-bottom:80px;
-}
-
 /* TASKLIST TITLES */
-.tasklist div h3{
+.tasklist div h3 {
     font-weight: bold;
-    font-size:20px;
-    margin-bottom:10px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 /* TASKLIST CONTENT */
-.tasklist div h3 span
-{
-    font-size:13px;
+.tasklist div h3 span {
+    font-size: 13px;
 }
 
 .tasklist ul {
-    display:block;
-    list-style-type:none;
+    display: block;
+    list-style-type: none;
     padding-left: 0;
     text-indent: 0;
-    font-size:18px;
+    font-size: 18px;
 
 }
 
 .tasklist ul li {
-    padding-bottom:15px;
+    padding-bottom: 15px;
 }
 
-.circle
-{
-    height:20px;
+.circle {
+    height: 20px;
     width: 20px;
-    border-radius:50%;
-    display:inline-block;
-    border:2px solid;
-    margin-top:15px;
-    font-size:14px;
-    text-align:center;
-    font-weight:bold;
-    line-height:17px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 17px;
 
 }
+
 /* BADGE SECTION */
-.badge{
+.badge {
     width: 58px;
     height: 24px;
-    border-radius:12px;
+    border-radius: 12px;
     border: 2px solid;
     font-size: 14px;
-    display:inline-block;
-    text-align:center;
+    display: inline-block;
+    text-align: center;
 }
 
-.badgetext
-{
+.badgetext {
     color: white;
-    font-size:10px;
-    font-weight:600
+    font-size: 10px;
+    font-weight: 600
 }
 
 
 /* COLOR AREA */
 
-.green{
-    color:#7ecfbe;
+.green {
+    color: #7ecfbe;
 }
 
 .red {
-    color:#e94438;
+    color: #e94438;
 }
 
 
@@ -170,8 +170,8 @@ width: 75px;
 
 
 
-.bg-white{
-    background-color:white;
+.bg-white {
+    background-color: white;
 }
 
 
@@ -179,36 +179,33 @@ width: 75px;
 /* COLOR BADGE SECTION */
 
 .bg-lightblue {
-    border-color:#47adf1;
-    background-color:#47adf1;
+    border-color: #47adf1;
+    background-color: #47adf1;
 }
 
 
 .bg-paleviolet {
-    border-color:#d863a1;
-    background-color:#d863a1;
+    border-color: #d863a1;
+    background-color: #d863a1;
 }
 
 .bg-lavanda {
-    border-color:#9c72e4;
-    background-color:#9c72e4;
+    border-color: #9c72e4;
+    background-color: #9c72e4;
 }
 
-.bg-orange
-{
-    border-color:#e69630;
-    background-color:#e69630;
+.bg-orange {
+    border-color: #e69630;
+    background-color: #e69630;
 
 }
 
-.bg-darkgreen
-{
-    border-color:#64c0a9;
-    background-color:#64c0a9;
+.bg-darkgreen {
+    border-color: #64c0a9;
+    background-color: #64c0a9;
 }
 
-.bg-lightgreen
-{
-    border-color:#b1ca28;
-    background-color:#b1ca28;
+.bg-lightgreen {
+    border-color: #b1ca28;
+    background-color: #b1ca28;
 }
